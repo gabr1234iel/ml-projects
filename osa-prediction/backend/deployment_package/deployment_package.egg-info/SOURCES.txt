@@ -1,0 +1,7 @@
+setup.py
+deployment_package.egg-info/PKG-INFO
+deployment_package.egg-info/SOURCES.txt
+deployment_package.egg-info/dependency_links.txt
+deployment_package.egg-info/requires.txt
+deployment_package.egg-info/top_level.txt
+scripts/userInput.py

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.custom-shape-divider-top-1699945745 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+
+.custom-shape-divider-top-1699945745 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 236px;
+}
+
+.custom-shape-divider-top-1699945745 .shape-fill {
+    fill: #38B6FF;
+}

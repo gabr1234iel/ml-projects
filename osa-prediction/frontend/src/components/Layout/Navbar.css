@@ -1,0 +1,29 @@
+.link-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hand-draw-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130%; 
+    height: auto;
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 1000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .hand-draw-circle path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 2s ease forwards;
+  }
+  

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: deployment_package
+Version: 1.0
+Requires-Dist: joblib==1.4.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: scikit-learn==1.4.2
+Requires-Dist: scipy==1.13.0
+Requires-Dist: threadpoolctl==3.4.0

@@ -1,0 +1,64 @@
+/* Gradient Magic Text Effect */
+@keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+    to {
+      background-position: -200% center;
+    }
+  }
+  
+  .magic-text {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--blue, rgb(4, 125, 196)),
+      var(--darkblue, rgb(56, 182, 255)),
+      var(--yellow, rgb(255, 223, 43)),
+      var(--darkyellow, rgb(228, 196, 13))
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    display: inline;
+  }
+  
+  /* Star Effect */
+  .star-effect {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .star-effect::before,
+  .star-effect::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
+    background: linear-gradient(transparent, transparent 30%, rgba(255, 255, 255, 0.8) 50%, transparent 70%, transparent);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: shine 2s infinite;
+  }
+  
+  .star-effect::after {
+    transform: rotate(72deg);
+  }
+  
+  @keyframes shine {
+    0% {
+      opacity: 0;
+      transform: scale(0.5) rotate(0);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.2) rotate(360deg);
+    }
+  }
+  
+  
