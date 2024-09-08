@@ -1,4 +1,13 @@
-# deployment-segp
+# Predicting Obstructive Sleep Apnea using ML - Decision Trees and Random Forest. 
+
+## Stack used: 
+- FE - React
+- BE - Express and Python, Sklearn for ML.
+
+[Quick Project demo video](https://www.youtube.com/watch?v=SUXF_JkDBNE)
+
+![image](https://github.com/user-attachments/assets/e6a65fb3-bb85-44c3-b538-156613fc1c8a)
+
 
 ## How to Run
 
